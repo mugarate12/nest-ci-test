@@ -26,7 +26,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           repository: ${{ secrets.IMAGE_NAME }}
-          short-description: A Python script example for Docker Hub with github actions
+          short-description: A NestJS app example for Docker Hub with github actions
           readme-filepath: ./OVERVIEW_DOCKER_HUB.md
 
       - name: Login to DockerHub
